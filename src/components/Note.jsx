@@ -3,10 +3,10 @@ import style from '../styles/Note.module.css'
 import {toast} from 'react-toastify';
 import FormModal from "./FormModal";
 import Form from "./Form";
-import { SERVER } from "../server";
+
 
 export default function Note ({userId,id,title,description,isActive,getNotes,tags}){
-
+  const SERVER = process.env.REACT_APP_SERVER
   const data = {id,isActive}
   const note = {id}
  

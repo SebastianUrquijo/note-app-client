@@ -8,10 +8,11 @@ import PrivateLogin from "./components/PrivateLogin"
 import PrivateUser from "./components/PrivateUser"
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { SERVER } from './server';
+
 
 
 function App() {
+  const SERVER = process.env.REACT_APP_SERVER
   const navigate = useNavigate()
 
   const [user,setUser] = useState({

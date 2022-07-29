@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react"
 import style from '../styles/Form.module.css'
 import {toast} from 'react-toastify';
-import { SERVER } from "../server";
+
 
 export default function Form({id,setIsOpen,getNotes,noteId,title,description,tags}){
-
+    const SERVER = process.env.REACT_APP_SERVER
     const [data,setData] = useState({
         id,
         title:"",

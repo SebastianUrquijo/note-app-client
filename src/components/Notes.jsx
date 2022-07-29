@@ -4,9 +4,10 @@ import Note from "./Note";
 import style from '../styles/Notes.module.css';
 import FormModal from "./FormModal";
 import Form from "./Form";
-import { SERVER } from "../server";
+
 
 export default function Notes(){
+const SERVER = process.env.REACT_APP_SERVER
 
 const userData =JSON.parse(localStorage.getItem('userInfo'))
 const userId = userData.id ?? null;

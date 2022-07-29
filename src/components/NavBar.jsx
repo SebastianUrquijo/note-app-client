@@ -5,9 +5,10 @@ import { useState } from 'react';
 import UserLogo from './UserLogo'
 import FormModal from "./FormModal"
 import {toast} from "react-toastify"
-import { SERVER } from "../server";
+
 
 export default function NavBar (){
+  const SERVER = process.env.REACT_APP_SERVER
     const navigate = useNavigate()
     const [isOpen,setIsOpen] = useState(false)
     const [isOpen2,setIsOpen2] =useState(false)

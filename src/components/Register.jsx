@@ -1,10 +1,10 @@
 import style from '../styles/Login.module.css'
 import ReCAPTCHA from "react-google-recaptcha"
 import React,{useRef,useState} from 'react'
-import { API } from './server';
+
 
 export default function Register ({newUser,setNewUser,handleRegister}){
-
+    const API = process.env.REACT_APP_API
     const captcha = useRef(null);
     const [trueUser, setTrueUser] = useState(true);
 
