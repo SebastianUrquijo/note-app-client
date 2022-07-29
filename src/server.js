@@ -1,1 +1,2 @@
-export const SERVER = /* process.env.REACT_APP_SERVER */ "http://localhost:3001"
+
+export const SERVER = process.env.REACT_APP_SERVER 

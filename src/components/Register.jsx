@@ -1,6 +1,7 @@
 import style from '../styles/Login.module.css'
 import ReCAPTCHA from "react-google-recaptcha"
 import React,{useRef,useState} from 'react'
+import { API } from './server';
 
 export default function Register ({newUser,setNewUser,handleRegister}){
 
@@ -44,7 +45,7 @@ function onSubmit(e){
                     <div className={style.captcha}>
                         <ReCAPTCHA
                         ref={captcha}
-                        sitekey={"6LdbZCshAAAAACqmS7LqirapHsFsKOjRQ4nIKO0q"}
+                        sitekey={API}
                         onChange={onChange}
                         />
                     </div>
