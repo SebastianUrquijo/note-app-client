@@ -1,0 +1,78 @@
+.FormBox form{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.FormBox input{
+    height: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 80%;
+}
+
+.FormBox textarea{
+    height: 11rem;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 80%;
+    resize: none;
+}
+
+.FormBox button{
+    margin: 1rem;
+    width: 30%;
+    background-color: #FDA62B;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: large;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+
+.FormBox p{
+    margin: 0%;
+}
+
+.FormBox h3{
+    margin: 0rem 0rem 1rem 0rem
+}
+
+.categories{
+    display: flex;
+    align-items: center;
+}
+
+.categories input{
+    width: 14rem;
+}
+
+.categories button{
+    width: 5rem;
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag{
+    display: flex;
+    background-color: #FDA62B;
+    color: #50244A;
+    margin: 0.5rem 0.5rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0px 10px 10px 0px;
+    align-items: center;
+}
+
+.tag button {
+    font-size: medium;
+    height: 1.5rem;
+    width: 1.5rem;
+    font-weight: bold;
+    margin: 0%;
+    margin-right: 0.5rem;
+    background-color: #50244A;
+    color: #FFFFFF;
+}

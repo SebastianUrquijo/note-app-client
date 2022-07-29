@@ -1,0 +1,66 @@
+.Box{
+    background-color: #FFFFFF;
+    color: #50244A;
+    height: 23rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    position: relative;
+}
+
+
+.info p,h2{
+hyphens: auto; 
+}
+
+.info h2{
+    margin: 0.5rem 0rem;
+
+}
+
+.Buttons{
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+}
+
+.Buttons svg{
+    cursor: pointer;
+    margin: 0px 5px;
+}
+
+.select{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.select button{
+    margin: 0rem 1rem;
+    background-color: #FDA62B;
+    border: none;
+    border-radius: 0.5rem;
+    width: 3rem;
+    height: 2rem;
+    cursor: pointer;
+    color: #50244A;
+    font-size: large;
+}
+
+.tags{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag{
+    display: flex;
+    background-color: #FDA62B;
+    color: #50244A;
+    margin: 0.5rem 0.5rem;
+    height: 1rem;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0px 10px 10px 0px;
+    align-items: center;
+}
+

@@ -1,0 +1,53 @@
+.container{
+    background-color: #50244A;
+    width: 100%;
+    min-height: 100vh;
+    color: antiquewhite;
+    padding-bottom: 2rem;
+}
+
+.container h1{
+    text-align: center;
+    margin: 0%;
+    font-size: 3rem;
+}
+
+.changeBtn{
+    margin: 0.5rem 3rem;
+    display: flex;
+    align-items: center;
+}
+.changeBtn button{
+    margin-left: 1.5rem;
+    cursor: pointer;
+    background-color: #FDA62B;
+    border: none;
+    width: 14rem;
+    font-size: 1.5rem;
+    color: #50244A;
+    border-radius: 0.5rem;
+}
+
+.changeBtn select{
+    margin-left: 1rem;
+    width: max-content;
+    font-size: 1.5rem;
+    background-color: #FDA62B;
+}
+
+.changeBtn svg{
+    cursor: pointer;
+}
+
+.myNotes{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 18rem));
+    grid-gap: 4rem;
+    padding: 2rem 3rem;
+}
+
+.alert{
+    margin-top: 5rem;
+    text-align: center;
+}

@@ -1,0 +1,107 @@
+.Back{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #50244A;
+}
+
+.LoginBox{
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    opacity: 0.9;
+    height: 32rem;
+    width: 50rem;
+    justify-content: space-evenly;
+}
+
+.pictureBox{
+    height: 350px;
+    width: 300px;
+    margin: 2rem;
+}
+
+.pictureBox > img {
+    height: 100%;
+    width: 100%;
+}
+
+.LoginBox form{
+    
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    align-items: center;
+}
+
+.LoginBox h2 {
+    font-size: xx-large;
+    color: #50244A;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.LoginBox p{
+    color: #50244A;
+}
+
+.LoginBox a {
+    border: 2px solid #50244A;
+    border-radius: 0.5rem;
+    color: #50244A;
+    text-decoration: none;
+    padding: 0.2rem 1rem;
+}
+
+
+
+.LoginBox input{
+    width: 70%;
+    margin: 1rem;
+    padding: 0.75rem;
+    background-color: #FFFFFF;
+    border: none;
+    color: #50244A;
+    border-bottom: 3px antiquewhite solid;
+    outline: none;
+    font-size: medium;
+}
+
+.LoginBox input::placeholder { color: #50244A; font-weight: bold; }
+.LoginBox input::-ms-reveal {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.LoginBox input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #50244A;
+    caret-color: #50244A;
+}
+
+.LoginBox button {
+    height: 3rem;
+    width: 6rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #50244A;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.LoginBox button:hover{
+    background-color: #FDA62B;
+    color: #50244A;
+}
+
+.captcha{
+    margin-bottom: 0.5rem;
+}
+
