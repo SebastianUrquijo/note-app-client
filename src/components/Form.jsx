@@ -63,7 +63,8 @@ export default function Form({id,setIsOpen,getNotes,noteId,title,description,tag
                 setData({
                     id,
                     title: "",
-                    description: ""
+                    description: "",
+                    tags:[]
                 })
             toast.success(`${result.msg}`, {
                 position: toast.POSITION.BOTTOM_RIGHT
@@ -92,7 +93,8 @@ export default function Form({id,setIsOpen,getNotes,noteId,title,description,tag
                 setData({
                     id,
                     title: "",
-                    description: ""
+                    description: "",
+                    tags:[]
                 })
             toast.success(`${result.msg}`, {
                 position: toast.POSITION.BOTTOM_RIGHT
